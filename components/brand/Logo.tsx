@@ -1,0 +1,28 @@
+import Link from "next/link";
+
+/** Marca: flor de azulejo com botão play. Cores da paleta: azulejo, noite e âmbar. */
+export function LogoMark({ size = 40 }: { size?: number }) {
+  return (
+    <svg className="brand-mark" width={size} height={size} viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+      <rect x="1" y="1" width="46" height="46" rx="12" fill="#1F4FD8" />
+      <g fill="#FFFFFF">
+        <circle cx="24" cy="13.5" r="7" />
+        <circle cx="34.5" cy="24" r="7" />
+        <circle cx="24" cy="34.5" r="7" />
+        <circle cx="13.5" cy="24" r="7" />
+        <circle cx="24" cy="24" r="9" />
+      </g>
+      <path d="M21 18.8v10.4a1 1 0 0 0 1.5.86l8.6-5.2a1 1 0 0 0 0-1.72l-8.6-5.2a1 1 0 0 0-1.5.86Z" fill="#0A1628" />
+      <circle cx="39" cy="9" r="3.2" fill="#FFB020" />
+    </svg>
+  );
+}
+
+export function Logo({ tone = "dark" }: { tone?: "dark" | "light" }) {
+  return (
+    <Link className={`brand brand-${tone}`} href="/" aria-label="IPTV Listas — início">
+      <LogoMark />
+      <span className="brand-word"><b>IPTV</b> Listas</span>
+    </Link>
+  );
+}
