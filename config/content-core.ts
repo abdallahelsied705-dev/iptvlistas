@@ -50,7 +50,7 @@ export const coreContent: Record<string, CoreContent> = {
     intro: "Como funciona uma subscrição IPTV Listas: duração, ecrãs em simultâneo, renovação e o que está incluído.",
     sections: [
       { heading: "Duração e ecrãs", paragraphs: [
-        "Escolhes entre 1, 3, 6 ou 12 meses e entre 1, 2 ou 3 ecrãs em simultâneo. Todos os planos têm os mesmos canais e funcionalidades; muda apenas o tempo e quantos ecrãs podem ver ao mesmo tempo.",
+        "Escolhes entre 1, 3, 6 ou 12 meses e entre 1, 2, 3 ou 4 ecrãs em simultâneo. Todos os planos têm os mesmos canais e funcionalidades; muda apenas o tempo e quantos ecrãs podem ver ao mesmo tempo.",
         "Podes instalar a app em vários equipamentos. O número de ecrãs define quantos podem estar a reproduzir ao mesmo tempo.",
       ], links: [link("Ver tabela de preços", "/precos/")] },
       { heading: "O que está incluído", paragraphs: [

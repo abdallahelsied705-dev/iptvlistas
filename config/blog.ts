@@ -288,7 +288,7 @@ export const blogArticles: BlogArticle[] = [
     slug: "/blog/iptv-varios-ecras/",
     title: "IPTV em vários ecrãs: quantos precisas e quanto custa",
     seoTitle: "IPTV em Vários Ecrãs: Quantos Precisas?",
-    description: "A diferença entre equipamentos instalados e ecrãs em simultâneo, como contar os ecrãs da tua casa, a internet necessária e o preço para 1 a 3 ecrãs.",
+    description: "A diferença entre equipamentos instalados e ecrãs em simultâneo, como contar os ecrãs da tua casa, a internet necessária e o preço para 1 a 4 ecrãs.",
     keyword: "iptv vários ecrãs",
     publishedAt: "2026-09-23T08:00:00Z",
     updatedAt: "2026-09-24T08:00:00Z",

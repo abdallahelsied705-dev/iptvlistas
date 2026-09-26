@@ -4,7 +4,7 @@
  * Para alterar uma condição comercial, altera apenas este ficheiro.
  */
 
-export type ScreenCount = 1 | 2 | 3;
+export type ScreenCount = 1 | 2 | 3 | 4;
 export type DurationMonths = 1 | 3 | 6 | 12;
 
 export const offer = {
@@ -24,12 +24,13 @@ export const offer = {
   /** Teste gratuito: 1 por pessoa e por equipamento. */
   trial: { hours: 24, free: true },
   durations: [1, 3, 6, 12] as DurationMonths[],
-  screens: [1, 2, 3] as ScreenCount[],
+  screens: [1, 2, 3, 4] as ScreenCount[],
   /** Preço total em euros por número de ecrãs em simultâneo e duração (meses). */
   prices: {
-    1: { 1: 11.99, 3: 19.99, 6: 32.99, 12: 44.99 },
-    2: { 1: 19.99, 3: 34.99, 6: 56.99, 12: 79.99 },
-    3: { 1: 27.99, 3: 49.99, 6: 79.99, 12: 109.99 },
+    1: { 1: 12.99, 3: 22.99, 6: 34.99, 12: 49.99 },
+    2: { 1: 19.99, 3: 36.99, 6: 54.99, 12: 74.99 },
+    3: { 1: 26.99, 3: 47.99, 6: 69.99, 12: 94.99 },
+    4: { 1: 32.99, 3: 57.99, 6: 84.99, 12: 114.99 },
   } as Record<ScreenCount, Record<DurationMonths, number>>,
 } as const;
 

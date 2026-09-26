@@ -19,8 +19,8 @@ export const seoOverrides: Record<string, SeoOverride> = {
     metaDescription: "IPTV em Portugal com 34.000 canais, +130.000 filmes e séries, guia TV, VPN integrada e apoio 24/7 em português. Sem fidelização.",
   },
   "/precos/": {
-    seoTitle: "Preços IPTV Portugal 2026: 1 a 3 Ecrãs",
-    metaDescription: "Escolhe a duração e o número de ecrãs e vê o preço final antes de encomendar. Desde 11,99€/mês, sem fidelização nem custos escondidos.",
+    seoTitle: "Preços IPTV Portugal 2026: 1 a 4 Ecrãs",
+    metaDescription: "Escolhe a duração e o número de ecrãs e vê o preço final antes de encomendar. Desde 12,99€/mês, sem fidelização nem custos escondidos.",
   },
   "/teste-iptv/": {
     seoTitle: "Teste IPTV Grátis 24h em Portugal",

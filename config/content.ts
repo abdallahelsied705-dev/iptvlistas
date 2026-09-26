@@ -167,7 +167,7 @@ function comparisonContent(_route: RouteDefinition): ContentSection[] {
       heading: "O que perguntar antes de pagar",
       paragraphs: [
         "Qual é o preço final para o número de ecrãs que precisas, se há fidelização, se podes testar antes e em que condições, e a que horas funciona o apoio.",
-        "Na IPTV Listas as respostas estão publicadas: preços de 1 a 3 ecrãs, sem fidelização, teste grátis de 24 horas e apoio 24/7 em português.",
+        "Na IPTV Listas as respostas estão publicadas: preços de 1 a 4 ecrãs, sem fidelização, teste grátis de 24 horas e apoio 24/7 em português.",
       ],
       links: links(["Ver preços", "/precos/"], ["Teste grátis 24h", "/teste-iptv/"]),
     },
@@ -245,7 +245,7 @@ function getFAQ(route: RouteDefinition): FAQEntry[] {
     default:
       return [
         { question: "Onde encontro ajuda?", answer: "Na página de suporte ou pelo WhatsApp, 24/7 em português." },
-        { question: "Onde vejo os preços?", answer: "Na página de preços, com o total calculado para 1 a 3 ecrãs." },
+        { question: "Onde vejo os preços?", answer: "Na página de preços, com o total calculado para 1 a 4 ecrãs." },
       ];
   }
 }

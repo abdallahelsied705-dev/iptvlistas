@@ -50,12 +50,12 @@ const helpHubs = [
 ];
 
 const faq = [
-  { question: "Quanto custa a IPTV Listas?", answer: `Desde ${formatEuro(priceFor(1, 1))} por 1 mês até ${formatEuro(priceFor(1, 12))} por 12 meses para 1 ecrã. Para 2 ou 3 ecrãs em simultâneo, a calculadora mostra o total antes de encomendares.` },
+  { question: "Quanto custa a IPTV Listas?", answer: `Desde ${formatEuro(priceFor(1, 1))} por 1 mês até ${formatEuro(priceFor(1, 12))} por 12 meses para 1 ecrã. Para 2, 3 ou 4 ecrãs em simultâneo, a calculadora mostra o total antes de encomendares.` },
   { question: "Posso experimentar antes de pagar um plano?", answer: `Sim. O teste de ${offer.trial.hours} horas é grátis, dá acesso ao serviço completo e não te obriga a nada.` },
   { question: "Como pago?", answer: "Todas as encomendas são confirmadas pelo WhatsApp, onde combinamos o pagamento e enviamos os acessos." },
   { question: "Há fidelização?", answer: "Não. O plano termina no fim do período pago e só renovas se quiseres." },
   { question: "Funciona na minha televisão?", answer: "Funciona na maioria das Smart TV, boxes e telemóveis. Diz-nos o modelo no WhatsApp e confirmamos antes de encomendares." },
-  { question: "Quantos ecrãs posso usar ao mesmo tempo?", answer: "Depende do plano: 1, 2 ou 3 ecrãs em simultâneo. Podes instalar em mais equipamentos, mas só vês ao mesmo tempo no número de ecrãs contratado." },
+  { question: "Quantos ecrãs posso usar ao mesmo tempo?", answer: "Depende do plano: 1, 2, 3 ou 4 ecrãs em simultâneo. Podes instalar em mais equipamentos, mas só vês ao mesmo tempo no número de ecrãs contratado." },
   { question: "Os canais têm guia de programação?", answer: "Sim. O guia de programação (EPG) está incluído, para veres o que está a dar e o que vem a seguir sem sair da app." },
   { question: "Preciso de instalar uma VPN?", answer: "Não. A VPN já está integrada no serviço, por isso não precisas de instalar nem pagar uma à parte." },
 ];
